@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5E642506182882E3006BF6BB /* video.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5E642505182882E3006BF6BB /* video.jpg */; };
 		5EAFCEA316AF7DFC0073CDBA /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAFCEA216AF7DFC0073CDBA /* UIKit.framework */; };
 		5EAFCEA516AF7DFC0073CDBA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAFCEA416AF7DFC0073CDBA /* Foundation.framework */; };
 		5EAFCEA716AF7DFC0073CDBA /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAFCEA616AF7DFC0073CDBA /* CoreGraphics.framework */; };
@@ -16,11 +17,20 @@
 		5EAFCEB516AF7DFC0073CDBA /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAFCEB416AF7DFC0073CDBA /* Default.png */; };
 		5EAFCEB716AF7DFC0073CDBA /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAFCEB616AF7DFC0073CDBA /* Default@2x.png */; };
 		5EAFCEB916AF7DFC0073CDBA /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EAFCEB816AF7DFC0073CDBA /* Default-568h@2x.png */; };
-		5EAFCEBC16AF7DFC0073CDBA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFCEBB16AF7DFC0073CDBA /* ViewController.m */; };
-		5EAFCEBF16AF7DFC0073CDBA /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EAFCEBD16AF7DFC0073CDBA /* ViewController.xib */; };
+		5EAFCEC816AF7F130073CDBA /* SMTPSenderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFCEC616AF7F130073CDBA /* SMTPSenderViewController.m */; };
+		5EAFCEC916AF7F130073CDBA /* SMTPSenderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5EAFCEC716AF7F130073CDBA /* SMTPSenderViewController.xib */; };
+		5EAFCECC16AF7F790073CDBA /* Base64Transcoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFCECB16AF7F790073CDBA /* Base64Transcoder.m */; };
+		5EAFCED016AF80BD0073CDBA /* HSK_CFUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFCECF16AF80BD0073CDBA /* HSK_CFUtilities.m */; };
+		5EAFCED316AF815F0073CDBA /* NSData+Base64Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFCED216AF815F0073CDBA /* NSData+Base64Additions.m */; };
+		5EAFCED616AF81A40073CDBA /* NSStream+SKPSMTPExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFCED516AF81A40073CDBA /* NSStream+SKPSMTPExtensions.m */; };
+		5EAFCED916AF81EE0073CDBA /* SKPSMTPMessage.m in Sources */ = {isa = PBXBuildFile; fileRef = 5EAFCED816AF81EE0073CDBA /* SKPSMTPMessage.m */; };
+		5EAFCEDB16AF85430073CDBA /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EAFCEDA16AF85430073CDBA /* CFNetwork.framework */; };
+		5EAFCEDF16AF86200073CDBA /* buildScript.sh in Resources */ = {isa = PBXBuildFile; fileRef = 5EAFCEDD16AF861F0073CDBA /* buildScript.sh */; };
+		5EAFCEE116AF8D400073CDBA /* push.wav in Resources */ = {isa = PBXBuildFile; fileRef = 5EAFCEE016AF8D400073CDBA /* push.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5E642505182882E3006BF6BB /* video.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = video.jpg; sourceTree = "<group>"; };
 		5EAFCE9E16AF7DFC0073CDBA /* SMTPSender.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SMTPSender.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5EAFCEA216AF7DFC0073CDBA /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5EAFCEA416AF7DFC0073CDBA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -34,9 +44,22 @@
 		5EAFCEB416AF7DFC0073CDBA /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		5EAFCEB616AF7DFC0073CDBA /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		5EAFCEB816AF7DFC0073CDBA /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		5EAFCEBA16AF7DFC0073CDBA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		5EAFCEBB16AF7DFC0073CDBA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		5EAFCEBE16AF7DFC0073CDBA /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		5EAFCEC516AF7F130073CDBA /* SMTPSenderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SMTPSenderViewController.h; sourceTree = "<group>"; };
+		5EAFCEC616AF7F130073CDBA /* SMTPSenderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SMTPSenderViewController.m; sourceTree = "<group>"; };
+		5EAFCEC716AF7F130073CDBA /* SMTPSenderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SMTPSenderViewController.xib; sourceTree = "<group>"; };
+		5EAFCECA16AF7F790073CDBA /* Base64Transcoder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64Transcoder.h; sourceTree = "<group>"; };
+		5EAFCECB16AF7F790073CDBA /* Base64Transcoder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64Transcoder.m; sourceTree = "<group>"; };
+		5EAFCECE16AF80BD0073CDBA /* HSK_CFUtilities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HSK_CFUtilities.h; sourceTree = "<group>"; };
+		5EAFCECF16AF80BD0073CDBA /* HSK_CFUtilities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HSK_CFUtilities.m; sourceTree = "<group>"; };
+		5EAFCED116AF815F0073CDBA /* NSData+Base64Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64Additions.h"; sourceTree = "<group>"; };
+		5EAFCED216AF815F0073CDBA /* NSData+Base64Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64Additions.m"; sourceTree = "<group>"; };
+		5EAFCED416AF81A40073CDBA /* NSStream+SKPSMTPExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSStream+SKPSMTPExtensions.h"; sourceTree = "<group>"; };
+		5EAFCED516AF81A40073CDBA /* NSStream+SKPSMTPExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSStream+SKPSMTPExtensions.m"; sourceTree = "<group>"; };
+		5EAFCED716AF81EE0073CDBA /* SKPSMTPMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SKPSMTPMessage.h; sourceTree = "<group>"; };
+		5EAFCED816AF81EE0073CDBA /* SKPSMTPMessage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SKPSMTPMessage.m; sourceTree = "<group>"; };
+		5EAFCEDA16AF85430073CDBA /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		5EAFCEDD16AF861F0073CDBA /* buildScript.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = buildScript.sh; sourceTree = "<group>"; };
+		5EAFCEE016AF8D400073CDBA /* push.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = push.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +67,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5EAFCEDB16AF85430073CDBA /* CFNetwork.framework in Frameworks */,
 				5EAFCEA316AF7DFC0073CDBA /* UIKit.framework in Frameworks */,
 				5EAFCEA516AF7DFC0073CDBA /* Foundation.framework in Frameworks */,
 				5EAFCEA716AF7DFC0073CDBA /* CoreGraphics.framework in Frameworks */,
@@ -56,6 +80,7 @@
 		5EAFCE9316AF7DFC0073CDBA = {
 			isa = PBXGroup;
 			children = (
+				5EAFCEDA16AF85430073CDBA /* CFNetwork.framework */,
 				5EAFCEA816AF7DFC0073CDBA /* SMTPSender */,
 				5EAFCEA116AF7DFC0073CDBA /* Frameworks */,
 				5EAFCE9F16AF7DFC0073CDBA /* Products */,
@@ -83,12 +108,25 @@
 		5EAFCEA816AF7DFC0073CDBA /* SMTPSender */ = {
 			isa = PBXGroup;
 			children = (
+				5E642505182882E3006BF6BB /* video.jpg */,
+				5EAFCEE016AF8D400073CDBA /* push.wav */,
+				5EAFCEDD16AF861F0073CDBA /* buildScript.sh */,
 				5EAFCEB116AF7DFC0073CDBA /* AppDelegate.h */,
 				5EAFCEB216AF7DFC0073CDBA /* AppDelegate.m */,
-				5EAFCEBA16AF7DFC0073CDBA /* ViewController.h */,
-				5EAFCEBB16AF7DFC0073CDBA /* ViewController.m */,
-				5EAFCEBD16AF7DFC0073CDBA /* ViewController.xib */,
 				5EAFCEA916AF7DFC0073CDBA /* Supporting Files */,
+				5EAFCEC516AF7F130073CDBA /* SMTPSenderViewController.h */,
+				5EAFCEC616AF7F130073CDBA /* SMTPSenderViewController.m */,
+				5EAFCEC716AF7F130073CDBA /* SMTPSenderViewController.xib */,
+				5EAFCECA16AF7F790073CDBA /* Base64Transcoder.h */,
+				5EAFCECB16AF7F790073CDBA /* Base64Transcoder.m */,
+				5EAFCECE16AF80BD0073CDBA /* HSK_CFUtilities.h */,
+				5EAFCECF16AF80BD0073CDBA /* HSK_CFUtilities.m */,
+				5EAFCED116AF815F0073CDBA /* NSData+Base64Additions.h */,
+				5EAFCED216AF815F0073CDBA /* NSData+Base64Additions.m */,
+				5EAFCED416AF81A40073CDBA /* NSStream+SKPSMTPExtensions.h */,
+				5EAFCED516AF81A40073CDBA /* NSStream+SKPSMTPExtensions.m */,
+				5EAFCED716AF81EE0073CDBA /* SKPSMTPMessage.h */,
+				5EAFCED816AF81EE0073CDBA /* SKPSMTPMessage.m */,
 			);
 			path = SMTPSender;
 			sourceTree = "<group>";
@@ -162,7 +200,10 @@
 				5EAFCEB516AF7DFC0073CDBA /* Default.png in Resources */,
 				5EAFCEB716AF7DFC0073CDBA /* Default@2x.png in Resources */,
 				5EAFCEB916AF7DFC0073CDBA /* Default-568h@2x.png in Resources */,
-				5EAFCEBF16AF7DFC0073CDBA /* ViewController.xib in Resources */,
+				5EAFCEC916AF7F130073CDBA /* SMTPSenderViewController.xib in Resources */,
+				5EAFCEDF16AF86200073CDBA /* buildScript.sh in Resources */,
+				5EAFCEE116AF8D400073CDBA /* push.wav in Resources */,
+				5E642506182882E3006BF6BB /* video.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,7 +216,12 @@
 			files = (
 				5EAFCEAF16AF7DFC0073CDBA /* main.m in Sources */,
 				5EAFCEB316AF7DFC0073CDBA /* AppDelegate.m in Sources */,
-				5EAFCEBC16AF7DFC0073CDBA /* ViewController.m in Sources */,
+				5EAFCEC816AF7F130073CDBA /* SMTPSenderViewController.m in Sources */,
+				5EAFCECC16AF7F790073CDBA /* Base64Transcoder.m in Sources */,
+				5EAFCED016AF80BD0073CDBA /* HSK_CFUtilities.m in Sources */,
+				5EAFCED316AF815F0073CDBA /* NSData+Base64Additions.m in Sources */,
+				5EAFCED616AF81A40073CDBA /* NSStream+SKPSMTPExtensions.m in Sources */,
+				5EAFCED916AF81EE0073CDBA /* SKPSMTPMessage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,14 +234,6 @@
 				5EAFCEAC16AF7DFC0073CDBA /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		5EAFCEBD16AF7DFC0073CDBA /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5EAFCEBE16AF7DFC0073CDBA /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -254,6 +292,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SMTPSender/SMTPSender-Prefix.pch";
 				INFOPLIST_FILE = "SMTPSender/SMTPSender-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -265,6 +304,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SMTPSender/SMTPSender-Prefix.pch";
 				INFOPLIST_FILE = "SMTPSender/SMTPSender-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -289,6 +329,7 @@
 				5EAFCEC416AF7DFC0073CDBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
